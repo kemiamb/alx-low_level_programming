@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints combination from 0 to 89
- *
+ * main - prints combination
  * Return : always 0 (success)
  */
 int main(void)
@@ -12,7 +11,7 @@ int main(void)
 	while (l < 58)
 	{
 		f = 48;
-		while (f <58)
+		while (f < 58)
 		{
 			if (l != f && l < f)
 			{
