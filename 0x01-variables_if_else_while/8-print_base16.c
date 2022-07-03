@@ -4,7 +4,7 @@
  *
  * Return: always 0 (success)
  *
- */ 
+ */
 int main(void)
 {
 	unsigned char a = '0';
