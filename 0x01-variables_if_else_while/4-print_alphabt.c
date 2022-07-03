@@ -1,8 +1,10 @@
 #include  <stdio.h>
 /*
- * main - entry point
+ * main - Entry point
  *
- * Return: always 0 (success)
+ * Description: printing alphabet except e and q
+ *
+ * Return: always 0 (Success)
  */
 int main(void)
 {
