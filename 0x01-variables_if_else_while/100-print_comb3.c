@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * 
  * main - prints combination
- *
  * Return : always 0 (success)
- *
  */
 int main(void)
 {
