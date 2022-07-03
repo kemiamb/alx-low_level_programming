@@ -6,14 +6,9 @@
  */
 int main(void)
 {
-	int i;
-	int e;
-	int g;
-	int h;
-	int op1;
-	int op2;
-	i = e = g = h = 48;
+	int i, e, g, h, op1, op2;
 
+	i = e = g = h = 48;
 	while (h < 58)
 	{
 		g = 48;
