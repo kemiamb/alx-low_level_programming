@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: always 0 (Success)
+ * main - entry point
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -9,8 +9,8 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
-		printf("%d", i);
+		putchar(i);
 	}
-	putchar ('\n');
+	putchar('\n');
 	return (0);
 }
