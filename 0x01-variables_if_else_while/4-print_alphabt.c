@@ -2,12 +2,12 @@
 /*
  * main - Entry point
  *
- * Description: printing alphabet except e and q
- *
  * Return: always 0 (Success)
+ *
  */
 int main(void)
 {
+
 	char ch;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
@@ -19,4 +19,5 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
+
 }
