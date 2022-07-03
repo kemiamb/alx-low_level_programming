@@ -1,8 +1,10 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Return : always 0 (Success)
- */
+ *
+ * Return: always 0 (success)
+ *
+ */ 
 int main(void)
 {
 	unsigned char a = '0';
