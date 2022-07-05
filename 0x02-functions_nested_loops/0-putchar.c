@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - entry point
  *
@@ -10,7 +10,7 @@ int main(void)
 	int i;
 
 
-	for(i = 0; i < 8; i++)
+	for (i = 0; i < 8; i++)
 	{
 		putchar(line[i]);
 	}
