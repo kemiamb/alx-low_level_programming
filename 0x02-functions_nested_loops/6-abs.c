@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign - Prints the sign of a number
- * @n: The number to be checked
+ *_abs - computes the absolute value of an integer
+ * @c: The number to be computed
  *
- *Return: 1 for positive num, -1 for negative num or zero for anything else
+ *Return:Absolute value of number zero
  */
 int _abs(int c)
 {
@@ -12,8 +12,7 @@ int _abs(int c)
 	{
 		int abs_val;
 
-		abs_val = c * -1;
-		
+		abs_val = c * -1;	
 		return (abs_val);
 	}
 
