@@ -1,16 +1,13 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * print_number - prints an integer
  * @n: input integer
  * Return: nothing
  */
-
-//void print_number(int n)
-int main(void)
+void print_number(int n)
 {
-	int i, n;
+	int i;
 	int d = 1;
 	unsigned int x = n;
 	unsigned int y = n;
@@ -18,11 +15,11 @@ int main(void)
 
 	if (n == 0)
 	{
-		putchar('0');
+		_putchar('0');
 	}
 	if (n < 0)
 	{
-		putchar('-');
+		_putchar('-');
 		n = n + 1;
 		n = -n;
 		y = n;
@@ -41,7 +38,7 @@ int main(void)
 	}
 	for (i = 0; i < c; i++)
 	{
-		putchar(y / d + '0');
+		_putchar(y / d + '0');
 		y = y % d;
 		d = d / 10;
 	}
