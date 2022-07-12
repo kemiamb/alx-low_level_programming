@@ -27,7 +27,7 @@ int _atoi(char *s)
 	}
 	while (c > 0)
 	{
-		num += ((s[i - 1] - '0' * d);
+		num += ((s[i - 1] - '0' * d));
 				i--;
 				c--;
 				d *= 10;
@@ -36,5 +36,6 @@ int _atoi(char *s)
 		num *= 1;
 	else
 		num *= -1;
+	return (num);
 }
 
