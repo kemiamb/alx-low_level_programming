@@ -12,7 +12,7 @@ char *_strcpy(char *dest, char *src)
 	while (c >= 0)
 	{
 		*(dest + c) = *(src + c);
-		if (*(src + count) == '\0')
+		if (*(src + c) == '\0')
 			break;
 		c++;
 	}
