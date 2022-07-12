@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int d = 1;
 	int num = 0;
 
-	for ( i = 0; i < _strlen(s); i++)
+	for (i = 0; i < _strlen(s); i++)
 	{
 		if (!(s[i] >= '0' && s[i] <= '9') && c > 0)
 			break;
