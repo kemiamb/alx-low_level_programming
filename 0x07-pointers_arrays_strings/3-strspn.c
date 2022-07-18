@@ -1,9 +1,9 @@
 #include "main.h"
 /**
  * _strspn - gets the length of a prefix substrig
- * @s: string
- * @accept: string
- * Return: number of bytes 
+ * @s: initial segment
+ * @accept: accepted bytes
+ * Return: number of accepted bytes 
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -24,5 +24,6 @@ unsigned int _strspn(char *s, char *accept)
 		if (bool == 1)
 			break;
 	}
+
 	return (i);
 }
