@@ -6,11 +6,25 @@
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
-		return (0);
-	if (n == 1)
-		return (1);
-	if (n < 0)
-		return (1);
+	return (helper(n, 1));
+}
 
+/**
+ * helper - another functin to solve the square root problem
+ * @i: if it is a square root
+ * @j: incrementer
+ * Return: squre root if natural or - 1 if not
+ */
 
+int helper(int i, int j)
+{
+	int sqr = j * j;
+
+	if (sqr == i)
+		return (j);
+	if (sqr < i)
+		return (helper(i, j + 1));
+	if (sqr > i)
+		return (-1);
+	return (0);
+}
