@@ -6,18 +6,14 @@
  */
 int is_palindrome(char *s)
 {
-	if (*s == '')
-		return (10);
-
+	if (*s == '\0')
+		return (1);
+	
 	if (*s != '\0')
 	{
-		if (*s == (*s - '\0'))
-		{
-			is_palindrome(s + 1);
-		}
-
+		_puts_recursion(s) == _print_rev_recursion(s)
 			return (1);
-		else
-			return (0);
 	}
+	else
+		return (0);
 }
