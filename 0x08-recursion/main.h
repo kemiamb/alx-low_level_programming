@@ -9,3 +9,5 @@ int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
 int _putchar(char c);
 int helper(int i, int j);
+int check(char *s);
+int pal(char *s, int l);
