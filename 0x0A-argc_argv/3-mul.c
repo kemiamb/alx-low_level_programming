@@ -6,7 +6,7 @@
  * @argv: vector of argument
  * Return: always 0 on success
  */
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	if (argc < 3)
 	{
