@@ -22,3 +22,4 @@ char *_strdup(char *str)
 		strcpy[j] = str[i];
 
 	return (strcpy);
+}
