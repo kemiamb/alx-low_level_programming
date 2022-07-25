@@ -1,21 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - print multiplication of 2 numbers
+ * main - multiplication of twi arguments
  * @argc: arguments
- * @argv: arguments vector
+ * @argv: vector of argument
  * Return: always 0 on success
  */
-int main (int argc, char *argv[])
+int main(int argc, int *argv[])
 {
-	if (argc != 3)
+	if (argc < 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
-	else
-	{
-	printf("%d\n", atoi(argv[1] * atoi(argv[2]));
-	}
-	return (0);
-}
+
+	printf("%d\n", (atoi(argv[1] * atoiargv[2])));
+       return (0);
+}       
