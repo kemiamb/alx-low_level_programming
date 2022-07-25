@@ -9,12 +9,12 @@ char *_strdup(char *str)
 {
 	char *strcpy;
 	unsigned int i, j;
-	
-	
+
+
 	if (str == NULL)
 		return (NULL);
 	for (i = 0; str[i] != '\0'; i++)
-		strcpy = (char *)malloc(sizeof(char) * (i + 1));
+		strcpy = (char *)malloc(sizeof(char) * i);
 
 	if (strcpy == NULL)
 		return (NULL);
@@ -22,6 +22,3 @@ char *_strdup(char *str)
 		strcpy[j] = str[i];
 
 	return (strcpy);
-}
-
-
