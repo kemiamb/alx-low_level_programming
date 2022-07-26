@@ -6,7 +6,7 @@
  * @av: vector of arguments
  * Return: a pointer to the string
  */
-char *argstoptr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	int size;
 	char *s;
