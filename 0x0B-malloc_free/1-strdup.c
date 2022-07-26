@@ -7,9 +7,12 @@
  */
 char *_strdup(char *str)
 {
-	char *strcpy = NULL;
+	char *strcpy;
 	int i = 0, j, k = 0;
 
+
+	if (str == NULL)
+		return (NULL);
 
 	while (str[k] != '\0')
 	{
@@ -19,7 +22,7 @@ char *_strdup(char *str)
 
 	strcpy = malloc(sizeof(char) * (i + 1));
 
-	if (str == NULL)
+	if (strcpy == NULL)
 		return (NULL);
 
 	for (j = 0; j <= i; j++)
