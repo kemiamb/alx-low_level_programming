@@ -5,7 +5,7 @@
  * @width: width of the array
  * @height: size of the array
  * Return: pointer to the array
- */ 
+ */
 int **alloc_grid(int width, int height)
 {
 	int i = 0;
@@ -17,7 +17,7 @@ int **alloc_grid(int width, int height)
 		return (NULL);
 
 	ptr = malloc(height * sizeof(int *));
-	
+
 	if (ptr == NULL)
 	{
 		free(ptr);
