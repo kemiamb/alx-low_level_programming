@@ -7,19 +7,23 @@
  */
 char *_strdup(char *str)
 {
-	char *strcpy;
-	unsigned int i, j;
+	char *strcpy = NULL;
+	int i = 0, j, k = 0;
 
+
+	while (str[k] != '\0')
+	{
+		i++;
+		k++;
+	}
+
+	strcpy = malloc(sizeof(char) * (i + 1));
 
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; str[i] != '\0'; i++)
-		strcpy = malloc(sizeof(char) * i + 1);
 
-	if (strcpy == NULL)
-		return (NULL);
+	for (j = 0; j <= i; j++)
+		strcpy[j] = str[j];
 
-	for (j = 0; j < i; j++)
-		strcpy[j] = str[i];
 	return (strcpy);
 }
