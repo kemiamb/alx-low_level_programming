@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
+#define UNUSED(x) (void)(x)
 /**
  * main - add two numbers
  * @argc: arguments
@@ -9,21 +10,17 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, add = 0;
-
-	for (i = 1; i < argc; i++)
+	if (!isdigit(argv))
 	{
-		for (j = 0; argv[i][j] != '\0'; j++)
-		{
-			if (!isdigit(argv[i][j]))
-			{
-				printf("Error\n");
-				return (1);
-			}
-		}
-	add += atoi(argv[i];
+		printf("Error\n");
+		return (1);
 	}
-	printf("%d\n", add);
+
+	if (argv != '\0')
+	{
+		printf("0\n");
+	}
+
 	return (0);
 }
 			
