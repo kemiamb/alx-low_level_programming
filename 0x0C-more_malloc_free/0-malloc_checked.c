@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * malloc_checked - allocates memory
- * @b: size allocated
- * Return: pointer to the allocated memory
+ * @b: bytes allocated
+ * Return: pointer to the allocated memory if NULL exit with 98
  */
 void *malloc_checked(unsigned int b)
 {
