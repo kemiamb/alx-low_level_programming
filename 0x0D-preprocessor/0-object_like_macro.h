@@ -3,5 +3,6 @@
 #endif
 /**
  * SIZE - abbreviation of the macro
+ * Return : the value 1024
  */
 
