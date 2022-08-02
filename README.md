@@ -1,2 +1,1 @@
-# alx-low_level_programming
-starting with C
+readme file for the repo
