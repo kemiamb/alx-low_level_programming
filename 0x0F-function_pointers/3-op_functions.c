@@ -1,43 +1,33 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "3-calc.h"
-
+/**
+ * op_add - adding function
+ * op_sub - substracting function
+ * op_mul - multiplication function
+ * op_div - division function
+ * op_mod - modulus function
+ * @a: first number
+ * @b: second number
+ * Return: result of the operation
+ */ 
 int op_add(int a, int b)
 {
-	int sum = atoi(a) + atoi(b);
-
-
-	printf("%d\n", sum);
-	return (sum);
+	return (a + b);
 }
 int op_sub(int a. int b)
 {
-	int sub = atoi(a) - atoi(b);
-
-	
-	printf("%d\n", sub);
-	return (sub);
+	return (a - b);
 }
 int op_mul(int a, int b)
 {
-	int times = atoi(a) * atoi(b);
-
-
-	printf("%d\n", times);
-	return (times);
+	return (a * b);
 }
 int op_div(int a, int b)
 {
-	int div = atoi(a) / atoi(b);
-
-
-	printf("%d\n", div);
-	return (div);
+	return (a / b);
 }
 int op_mod(int a, int b)
 {
-	int rem = atoi(a) % atoi(b);
-
-	printf("%d\n", rem);
-	return (rem);
+	return (a % b);
 }
